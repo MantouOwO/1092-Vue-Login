@@ -1,7 +1,8 @@
-  
-Install  
+install
+
 npm install
 npm start sever  
+
 --------------------------------
 帳戶資料寫在根目錄的userdata.json裡面  
 需在login頁面登入，取得token才可瀏覽主頁面  
