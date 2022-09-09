@@ -9,6 +9,7 @@
 <script>
 
 export default {
+  name: "UserName",
   data () {
       return {
         username: localStorage.getItem("username"),

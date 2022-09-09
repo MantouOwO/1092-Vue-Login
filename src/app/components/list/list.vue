@@ -11,7 +11,7 @@
 import {mapGetters} from 'vuex';
 
 export default {
-  name: 'list',
+  name: 'UserList',
   props: ['last'],
   beforeCreate() {
     this.$store.dispatch('getList', localStorage.getItem("token"));

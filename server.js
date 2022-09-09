@@ -57,6 +57,7 @@ app.post('/login', (req, res) => {
   fs.readFile(USERDATA, (err, data) => {
     res.setHeader('Cache-Control', 'no-cache');
     const userdata = JSON.parse(data);
+    console.log(req)
     userdata.forEach(function (item, i){
       if(item['username'] == req.body.username && item['password'] == req.body.password){
         logincheck = 1;
